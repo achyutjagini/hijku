@@ -2,7 +2,7 @@ import axios from 'axios'
 require('dotenv').config();
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api',
+    baseURL: 'https://hijku.herokuapp.com/api',
 })
 
 export const insertMovie = payload => api.post(`/movie`, payload)
