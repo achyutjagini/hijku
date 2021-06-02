@@ -13,11 +13,13 @@
         "styled-components": "^4.2.0"
     },
     "scripts": {
-        "start": "PORT=8000 react-scripts start",
+        "start":"react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
+    "proxy": "http://localhost:8000",
+    
     "eslintConfig": {
         "extends": "react-app"
     },
@@ -32,6 +34,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-"proxy": "http://localhost:3000"
+    }
 }
