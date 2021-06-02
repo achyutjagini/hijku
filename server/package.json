@@ -9,4 +9,11 @@
     "express": "^4.16.4",
     "mongoose": "^5.7.5"
   }
+"scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm install && npm run build"
+}
+"engines": {
+    "node": "12.18.4"
+}
 }
